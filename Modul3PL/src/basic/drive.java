@@ -9,19 +9,19 @@ package basic;
  *
  * @author Niko Silabest
  */
-public class drive extends balok
+public class drive 
 {
     public static void main(String[] args) 
     {
-        drive sisi = new drive();
+        balok blk = new balok();
+     
         
-        sisi.setPanjang(10);
+        blk.setLebar(10);
+        blk.setPanjang(15);
+        blk.setTinggi(5);
+        blk.hasil();
         
-        sisi.setLebar(15);
         
-        sisi.setTinggi(5);
-        
-        sisi.hasil();
         
         
         

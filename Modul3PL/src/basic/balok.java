@@ -1,5 +1,4 @@
 package basic;
-
 /**
  *
  * @author Niko Silabest

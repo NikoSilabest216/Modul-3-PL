@@ -9,7 +9,7 @@ package basic;
  *
  * @author Niko Silabest
  */
-public class perhitungan extends drive
+public class perhitungan
 {
     balok sisi = new balok();
     int luas;
@@ -25,12 +25,16 @@ public class perhitungan extends drive
         int panjangV=sisi.getPanjang();
         int lebarV=sisi.getLebar();
         int tinggiV=sisi.getTinggi();
-        volume= panjangV*lebarV*tinggiV;
+        volume(panjangV, lebarV, tinggiV);
+    }
+
+    public int volume(int panjangV, int lebarV, int tinggiV) {
+       return panjangV*lebarV*tinggiV;
     }
 
     
 
-    public void luas(int panjang, int lebar, int tinggi) {
-        luas=2*((panjang*lebar)+(panjang*tinggi)+(lebar*tinggi));
+    public int luas(int panjang, int lebar, int tinggi) {
+        return 2*((panjang*lebar)+(panjang*tinggi)+(lebar*tinggi));
     }
 }
