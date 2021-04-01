@@ -14,15 +14,12 @@ public class drive
     public static void main(String[] args) 
     {
         balok blk = new balok();
-     
+        
         
         blk.setLebar(10);
         blk.setPanjang(15);
         blk.setTinggi(5);
-        blk.hasil();
-        
-        
-        
+        blk.hasil();        
         
         
     }

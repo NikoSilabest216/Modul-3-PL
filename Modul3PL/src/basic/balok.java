@@ -53,8 +53,8 @@ public class balok
    protected void hasil ()
    {
        perhitungan ph = new perhitungan();
-       System.out.println("Hasil Luas Balok: " +ph.luas);
-       System.out.println("Hasil Volume Balok: "+ph.volume);
+       System.out.println("Hasil Luas Balok: " +ph.luas(panjang, lebar, tinggi));
+       System.out.println("Hasil Volume Balok: "+ph.volume(panjang, lebar, tinggi));
    }
         
     
